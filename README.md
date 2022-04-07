@@ -3,6 +3,7 @@
 concept for a tool that provides a validator for the Magento Marketplace. 
 
 * https://devdocs.magento.com/marketplace/sellers/technical-review-guidelines.html
+* https://blueacornici.slack.com/archives/G01PQ5J0P6Y/p1649281463468309
 
 
 ## Todos
