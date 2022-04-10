@@ -1,16 +1,17 @@
 <footer>
 
-    {{ range readDir "/validator" }}
+    {{ range .Pages }}
 
-        <div id="accordian-{{ .Name }}">
+        <div class = "accordian" id="accordian-{{ .Params.Id }}" onclick="$('#accordian-{{ .Params.Id }} .more').toggle()">
 
-            {{ .Name }}
+            
+            <h2>{{ .Title }}</h2>
 
-            <div class="more">
-                
+            <more style="display:none" class="more">
+            
+            {{ .Content}}
           
-
-            </div>
+            </more>
         
 
         </div>
