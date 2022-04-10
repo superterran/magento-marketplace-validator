@@ -12,3 +12,11 @@ concept for a tool that provides a validator for the Magento Marketplace.
 * frontend suitable for online validation
 * cli tool suitable for CI/CD 
 
+# Local Setup
+
+```bash
+
+$ brew install hugo
+$ hugo server
+
+```

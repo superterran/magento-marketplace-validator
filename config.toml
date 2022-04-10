@@ -1,3 +1,4 @@
 baseURL = 'https://superterran.github.io/magento-marketplace-validator/'
 languageCode = 'en-us'
 title = 'Magento Marketplace Validator'
+theme = "validator"
