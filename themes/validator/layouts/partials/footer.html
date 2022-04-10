@@ -1,1 +1,19 @@
-<footer></footer>
+<footer>
+
+    {{ range readDir "/validator" }}
+
+        <div id="accordian-{{ .Name }}">
+
+            {{ .Name }}
+
+            <div class="more">
+                
+          
+
+            </div>
+        
+
+        </div>
+    {{ end }}
+
+</footer>

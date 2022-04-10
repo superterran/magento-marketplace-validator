@@ -1,3 +1,11 @@
-<textarea></textarea>
-<button>Validate</button>
+<pre id="code">
+    <code contenteditable="true" oninput="hljs.highlightAll();">
+        {{ partial "sample.html" . }}
+    </code>
+</pre>
+<button onclick="validation.submit()">Validate</button>
+
+
+<script>hljs.highlightAll();</script>
+
 <output></output>
