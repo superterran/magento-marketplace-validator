@@ -1,6 +1,6 @@
 ---
 title: composer.json name attribute
-id: composername
+id: composer-name
 ---
 
 Test!
