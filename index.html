@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta name=generator content="Hugo 0.96.0"><link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css><script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js></script>
+<script defer language=javascript type=text/javascript src=/magento-marketplace-validator/js/validator.js></script>
+<link rel=stylesheet href=/magento-marketplace-validator/css/main.css></head><body><header>Magento Marketplace Validator</header><pre id=code>
+    <code contenteditable=true oninput=hljs.highlightAll()>
+        {
+    "name": "vertexinc/sdk-module",
+    "description": "Tools for communicating with Vertex Cloud and Vertex O-Series",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.2.9",
+    "require": {
+        "php": "^5.4|^7|^8",
+        "ext-soap": "*",
+        "ext-openssl": "*",
+        "ext-mbstring": "*"
+    },
+    "replace": {
+        "vertex/sdk": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vertex\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vertex\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "php": ">=7.3",
+        "squizlabs/php_codesniffer": "@stable",
+        "phpunit/phpunit": "^9",
+        "phpmd/phpmd": "^2.6",
+        "dealerdirect/phpcodesniffer-composer-installer": "@stable",
+        "mediotype/code-standard": "^1.0"
+    },
+    "archive": {
+        "exclude": [
+            ".github",
+            ".git",
+            ".gitattributes",
+            ".gitignore",
+            ".travis.yml",
+            "phpcs.xml",
+            "phpcs-old.xml",
+            "phpcs-new.xml"
+        ]
+    }
+}
+    </code>
+</pre><button onclick=validation.submit()>Validate</button>
+<script>hljs.highlightAll()</script><output></output><footer><div id=accordian-composer.name.md>composer.name.md<div class=more></div></div></footer></body></html>
